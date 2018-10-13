@@ -1,4 +1,4 @@
-# conda-auto-env
+# conda-auto-env for zsh
 
 Automatically activate a conda environment when entering a folder with an environment.yml file.
 
@@ -8,15 +8,5 @@ This functionality was inspired by [conda auto activate](https://github.com/sott
 
 ## Install
 
-To install add this line to your .bashrc, .bash-profile, or .zshrc:
+add `conda-auto-env` to your zsh plugins list. It's that simple!
 
-       source /path/to/conda_auto_env.sh
-
-### Remote environments
-
-Alternatively, if you would also like to have support remote anaconda.org environments. Change those instructions to ``source /path/to/conda_auto_env_remote.sh``. To specify a remote environment create an ``environment-remote.yml`` file with the name and channel of your environment:
-
-```yaml
-name: pyladies-bokeh
-channel: chdoig
-```
